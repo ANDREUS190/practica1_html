@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Andreu</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="src/logo.png"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="reviews.html#book">Last Entry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" maxlength="12" size="15" required>
+        </div>
+
+        <div>
+            <label for="first_surname">First Surname: </label>
+            <input type="text" id="first_surname" maxlength="12" size="12" required>
+        </div>
+
+        <div>
+            <label for="second_surname">Second Surname: </label>
+            <input type="text" id="second_surname" maxlength="12" size="12">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" size="20" required>
+        </div>
+
+        <div>
+            <label for="comments">Comments: </label>
+            <textarea id="comments" cols="50" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Finish" id="submit">
+            <input type="reset" value="Restart" id="reset">
+        </div>
+    </form>
+</body>
+</html>
